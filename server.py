@@ -23,7 +23,7 @@ try:
 
         # Обрабатываем данные от клиента
         while True:
-            data = conn.recv(1024)  # Получаем данные порциями по 1 КБ
+            data = conn.recv(1024)  # Получаем данные  по 1 КБ
             if not data:
                 print(f"Клиент {addr} отключился")
                 break
